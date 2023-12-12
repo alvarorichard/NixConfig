@@ -28,7 +28,6 @@ let
     p.vue
     p.yaml
     p.zig
-    p.nim2
     p.nim
   ]));
 in

@@ -74,7 +74,9 @@
           pkgs = nixosPackages;
           modules = [
             ./nixos/krone
-           # ./modules/hyprland.nix
+            #
+            # ./modules/hyprland.nix
+
             home-manager.nixosModules.home-manager
             {
               home-manager.useGlobalPkgs = true;
