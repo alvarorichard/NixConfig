@@ -9,7 +9,7 @@
   ];
   home = {
     username = "krone";
-    homeDirectory = "/home/krone";
+    #    homeDirectory = "/home/krone";
     stateVersion = "23.11";
     file."Pictures/wallpapers" = {
       source = ./wallpapers;
